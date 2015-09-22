@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px;
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.box {
+	padding:10px;
+	border:2px solid #f00;
+	flex:1 1 auto;
+}
+
+@media (min-width: 500px) {
+	.box {
+		flex: 1 1 50%;
+	}
+}
+
+@media (min-width: 800px) {
+	.box {
+		flex: 1 1 33.3333%;
+	}
+}

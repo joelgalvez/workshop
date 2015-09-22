@@ -1,0 +1,13 @@
+@font-face {
+    font-family: gooddog;
+    src: url(GoodDog.otf);
+}
+
+body {
+	font-family: gooddog;
+	font-size: 50px;
+}
+
+h1 {
+	font-size: 100px;
+}

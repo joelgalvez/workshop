@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+}
+
+.thing {
+	width: 50vw;
+	height: 50vh;
+	position: absolute;
+	top:25vh;
+	left:25vw;
+	background-color: #f00;
+
+    transform: rotate(7deg);
+}

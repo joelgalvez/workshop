@@ -1,0 +1,15 @@
+body {
+	margin:10px;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size:100px;
+	margin-bottom: 5px;
+}
+
+@media (min-width: 500px) {
+	h1 {
+		font-size:200px;
+	}
+}
