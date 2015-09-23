@@ -2,6 +2,18 @@
 	box-sizing: border-box;
 }
 
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+
+
+
 .thing {
 	width: 50vw;
 	height: 50vh;
@@ -10,5 +22,9 @@
 	left:25vw;
 	background-color: #f00;
 
-    transform: rotate(7deg);
+    animation-name: rotate; 
+    animation-duration: 80s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
