@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: translate3d(0,0,1000px) rotateY(0deg);
+    }
+    100% {
+        transform: translate3d(0,0,-10000px) rotateY(360deg);
+    }
+}
+
+body {
+    perspective: 1000px;
+}
+
+.thing {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top:0vh;
+	left:0vw;
+	background-color: #f00;
+    
+    animation-name: rotate; 
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}

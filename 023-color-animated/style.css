@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+
+@keyframes rotate {
+    0% {
+        background-color: #fff;
+    }
+    50% {
+        background-color: #000;   
+    }
+    100% { 
+        background-color: #fff;
+    }
+}
+
+
+
+.thing {
+	width: 50vw;
+	height: 50vh;
+	position: absolute;
+	top:25vh;
+	left:25vw;
+	background-color: #f00;
+
+    animation-name: rotate; 
+    animation-duration: 8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
